@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>வெங்கியின் கதை நிலத்திற்கு உங்களை வரவேற்கிறோம்</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            overflow-x: hidden; 
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://png.pngtree.com/background/20210711/original/pngtree-cartoon-children-s-day-promotion-poster-banner-picture-image_1096520.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            padding: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .hero a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        .hero a:hover {
+            background-color: #45a049;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+        }
+        .topics li {
+            flex: 1 1 30%;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .topics img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .topic-content {
+            padding: 15px;
+            text-align: center;
+        }
+        .topic-content h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .topic-content p {
+            font-size: 1em;
+            color: #555;
+        }
+        .topics li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        @media (max-width: 768px) {
+            .topics li {
+                flex: 1 1 100%;
+            }
+        }
+       
+        @keyframes slideLeft {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .running-text {
+            margin: 20px 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .running-text p {
+            display: inline-block;
+            font-size: 1.5em;
+            color: #ff5722;
+            animation: slideLeft 10s linear infinite;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>வெங்கியின் கதை நிலத்திற்கு உங்களை வரவேற்கிறோம்</h1>
+        <p>அற்புதமான கதைகள் மற்றும் சாகசங்களைக் கண்டறியவும்</p>
+        
+    </div>
+
+    <!-- Running text placed below hero and above "Choose Your Story" -->
+    <div class="running-text">
+        <p>வெற்றி என்பது இறுதியானதும் அல்ல, தோல்வி என்பது முடிவும் அல்ல.</p>
+    </div>
+
+    <div class="container">
+        <h2 style="text-align: center;">இந்த அற்புதமான கதையை கிளிக் செய்து படிக்கவும்</h2>
+        <ul class="topics">
+            <li>
+                <img src="file:///C:/Users/K.VENKATESH/Downloads/AI_Generated_Image_2024-08-18_461671800008201.jpg" alt="Image related to Story Topic 1">
+
+                <div class="topic-content">
+                    <h2><a href="story1.html">வழியில் விறுவிறுப்பான வாழ்வு</a></h2>
+                    <p>உணரும் வரை உண்மையும் ஒரு பொய் தான் புரிகின்ற வரை வாழ்க்கையும் ஒரு புதிர் தான்.</p>
+                </div>
+            </li>
+            <li>
+                <img src="c:\Users\K.VENKATESH\Pictures\Screenshots\Screenshot 2024-08-18 200832.png" alt="Image related to Story Topic 2">
+                <div class="topic-content">
+                    <h2><a href="story2.html">சமன் மற்றும் ராஜாவின் கற்றல் பயணம்</a></h2>
+                    <p>எத்தனை உறவுகள் நம்மை சுற்றி இருந்தாலும் அத்தனையும் மனதுக்கு பலம் சேர்ப்பதில்லை பயமின்றி வாழ்க்கையை வாழ யாரோ ஒருவரின் ஆறுதலும் துணையுமே தேவைப்படுகிறது.</p>
+                </div>
+            </li>
+            <li>
+                <img src="C:\Users\K.VENKATESH\Pictures\Screenshots\Screenshot 2024-08-18 203405.png" alt="Image related to Story Topic 3">
+                <div class="topic-content">
+                    <h2><a href="story3.html">மரனும் சந்திரனும் - ஒரு நெஞ்சை தொடும் நட்பு</a></h2>
+                    <p>வெட்டுதல் எளிது, ஆனால் மரத்தை காப்பது உண்மையான மகிமை.</p>
+                </div>
+            </li>
+            <li>
+                <img src="C:\Users\K.VENKATESH\Pictures\Screenshots\Screenshot 2024-08-18 210039.png" alt="Image related to Story Topic 3">
+                <div class="topic-content">
+                    <h2><a href="story4.html">பொன்னரசி: உலகத்தை காணும் பயணம்</a></h2>
+                    <p>உலகம் மிகவும் பெரியது , உன் உள்ளத்தில் நிறைந்த எண்ணங்களுடன் அதை ஆராயுங்கள்.</p>
+                </div>
+            </li>
+            <li>
+                <img src="C:\Users\K.VENKATESH\Downloads\image (2).png" alt="Image related to Story Topic 3">
+                <div class="topic-content">
+                    <h2><a href="story5.html">செயற்கை நுண்ணறிவின் பயமும் நம்பிக்கையும்</a></h2>
+                    <p>செயற்கை நுண்ணறிவு எங்கள் வாழ்க்கையை மாற்றும் புதிய வாய்ப்புகளை வழங்கும், ஆனால் அதை எவ்வாறு சமாளிக்க வேண்டும் என்பதிலும் கவனம் செலுத்த வேண்டும்.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mr.K.Vengi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
